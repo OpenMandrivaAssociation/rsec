@@ -72,3 +72,19 @@ touch /var/log/security.log && chmod 0640 /var/log/security.log
 %config(noreplace) %{_sysconfdir}/cron.hourly/rsec
 %{_sysconfdir}/cron.daily/pkgcheck
 %ghost %attr(0640,root,root) /var/log/security.log
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.70.1-3mdv2010.0
++ Revision: 433457
+- rebuild
+
+* Fri Aug 08 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.70.1-2mdv2009.0
++ Revision: 269223
+- rebuild early 2009.0 package (before pixel changes)
+
+* Tue May 06 2008 Vincent Danen <vdanen@mandriva.com> 0.70.1-1mdv2009.0
++ Revision: 202141
+- import rsec
+
+
