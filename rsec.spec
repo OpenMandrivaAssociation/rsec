@@ -1,6 +1,6 @@
 Name:		rsec
 Version:	0.70.1
-Release:	%mkrel 3
+Release:	4
 
 Summary:	Security Reporting tool
 License:	GPLv2
