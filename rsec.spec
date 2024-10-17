@@ -5,7 +5,7 @@ Release:	4
 Summary:	Security Reporting tool
 License:	GPLv2
 Group:		System/Base
-URL:		http://annvix.org/Tools/rsec
+URL:		https://annvix.org/Tools/rsec
 Source0:	http://annvix.org/downloads/rsec/%{name}-%{version}.tar.bz2
 
 BuildRoot:	%{_tmppath}/%{name}-%{version}
