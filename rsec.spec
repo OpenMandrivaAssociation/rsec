@@ -23,6 +23,7 @@ Requires:	rkhunter >= 1.3.0
 Conflicts:	passwd < 0.67
 Conflicts:	msec
 
+BuildRequires:	make
 %description
 The Annvix Security Reporting tool (rsec) is largely based on the
 Mandriva Linux msec program.  rsec produces the same reports as msec, but
